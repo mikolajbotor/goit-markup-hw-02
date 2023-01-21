@@ -1,0 +1,218 @@
+:root {
+    --main-color: #212121;
+    --background-color: #2f303a;
+    --highlight-color: #2196f3;
+    --secondary-color: #ffffff;
+    --secondary-text-color: #757575;
+    --secondary-background-color: #f5f4fa;
+    --logo-color: #000000;
+    --contact-footer-color: rgba(255, 255, 255, 0.6);
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+  }
+  
+  .logo-header {
+    color: var(--logo-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    font-family: 'Raleway';
+  }
+  
+  .logo-header:hover {
+    color: var(--highlight-color);
+  }
+  
+  .logo-header:focus {
+    color: var(--highlight-color);
+  }
+  
+  .logo-footer {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    font-family: 'Raleway';
+  }
+  
+  .logo-footer:hover {
+    color: var(--highlight-color);
+  }
+  
+  .logo-footer:focus {
+    color: var(--highlight-color);
+  }
+  
+  .logo-highlight {
+    color: var(--highlight-color);
+  }
+  
+  .navigation {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--main-color);
+  }
+  
+  .navigation:hover {
+    color: var(--highlight-color);
+  }
+  
+  .navigation:focus {
+    color: var(--highlight-color);
+  }
+  
+  .contact-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    color: var(--secondary-text-color);
+  }
+  
+  .contact-header:hover {
+    color: var(--highlight-color);
+  }
+  
+  .contact-header:focus {
+    color: var(--highlight-color);
+  }
+  
+  .contact-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    color: var(--contact-footer-color);
+  }
+  
+  .contact-footer:hover {
+    color: var(--highlight-color);
+  }
+  
+  .contact-footer:focus {
+    color: var(--highlight-color);
+  }
+  
+  .contact-footer-adress {
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  
+  .footer {
+    background-color: var(--background-color);
+  }
+  
+  .welcome-section {
+    background-color: var(--background-color);
+  }
+  
+  .title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--secondary-color);
+  }
+  
+  .title-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    cursor: pointer;
+    background-color: var(--secondary-background-color);
+    border-radius: 4px;
+  }
+  
+  .title-button:hover {
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+  }
+  
+  .title-button:focus {
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+  }
+  
+  .list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  
+  .list-descryption {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+  }
+  
+  .secondary-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+  }
+  
+  .team-section {
+    background-color: var(--secondary-background-color);
+  }
+  
+  .team-member {
+    background-color: var(--secondary-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+  }
+  
+  .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+  }
+  
+  .job {
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--secondary-text-color);
+  }
+  
+  .list-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    cursor: pointer;
+    background-color: var(--secondary-background-color);
+    border-radius: 4px;
+  }
+  
+  .list-button:hover {
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+  }
+  
+  .list-button:focus {
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+  }
+  
+  .list-item {
+    border: 1px solid #eeeeee;
+  }
+  
+  .cell-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+  }
+  
+  .category {
+    font-size: 16px;
+    line-height: 1.86;
+    color: var(--secondary-text-color);
+  }
