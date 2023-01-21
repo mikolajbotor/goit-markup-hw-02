@@ -1,18 +1,80 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
 }
 
-.logo-header{
-    color:#2196F3
+a{
     text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    font-family: 'Raleway';
+    color:black
+    }
+
+.logo-header{
+    position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
 }
 
 .logo-header:hover{
-    color:#2196F3;
+    color:#212121;
+}
+
+nav{
+    position: absolute;
+    width: 53px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+
+.contact a{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+}
+
+.contact-mail{
+    position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+
+}
+
+.contact-phone{
+    position: absolute;
+width: 110px;
+height: 16px;
+left: 1263px;
+top: 32px;
 }
 
 .logo-footer{
